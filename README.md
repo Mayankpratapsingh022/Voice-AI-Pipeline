@@ -1,4 +1,4 @@
-# Twilio Chatbot: Outbound
+# Voice AI Pipeline: Outbound
 
 This project is a Pipecat-based chatbot that integrates with Twilio to make outbound calls with personalized call information. The project includes FastAPI endpoints for initiating outbound calls and handling WebSocket connections with call context.
 
@@ -46,7 +46,6 @@ TwiML fetched → WebSocket connection → Bot conversation
 1. Set up a virtual environment and install dependencies:
 
 ```bash
-cd outbound
 uv sync
 ```
 
